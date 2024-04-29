@@ -1,6 +1,6 @@
 {
   "name": "count-loc",
-  "version": "0.0.1-alpha.01",
+  "version": "0.0.1",
   "description": "Count lines of code in the project",
   "keywords": [
     "count",
