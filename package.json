@@ -20,8 +20,8 @@
   },
   "scripts": {
     "build": "rm -rf dist && tsc",
-    "dev": "NODE_ENV=development ts-node-dev --respawn --transpile-only ./src/index.ts",
-    "start": "NODE_ENV=development ts-node ./src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "start": "ts-node ./src/index.ts",
     "deploy": "yarn build && npm publish"
   },
   "dependencies": {

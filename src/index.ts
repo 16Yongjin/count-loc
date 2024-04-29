@@ -18,8 +18,8 @@ type LOCHistogram = {
 
 const main = async () => {
   program
-    .argument('[확장자]', 'ex) jsx,tsx,vue')
-    .argument('[루트경로]', 'ex) ./components')
+    .argument('[exts]', 'ex) jsx,tsx,vue')
+    .argument('[root dir]', 'ex) ./components')
     .parse();
 
   const [exts = 'js,ts,jsx,tsx,vue', rootDir = '.'] = program.args;
