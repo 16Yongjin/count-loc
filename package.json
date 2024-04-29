@@ -1,0 +1,40 @@
+{
+  "name": "count-loc",
+  "version": "0.0.1-alpha.01",
+  "description": "Count lines of code in the project",
+  "keywords": [
+    "count",
+    "loc",
+    "lines",
+    "code"
+  ],
+  "main": "index.js",
+  "bin": {
+    "count-loc": "dist/index.js"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "dev": "NODE_ENV=development ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "start": "NODE_ENV=development ts-node ./src/index.ts",
+    "deploy": "yarn build && npm publish"
+  },
+  "dependencies": {
+    "commander": "11.1.0",
+    "glob": "^10.3.12",
+    "table": "5.4.6"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^20.12.7",
+    "@types/table": "5.0.0",
+    "nodemon": "^3.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "author": {
+    "name": "16Yongjin",
+    "email": "yongjin0802@gmail.com",
+    "url": "https://github.com/16Yongjin"
+  }
+}
