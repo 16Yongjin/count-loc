@@ -16,7 +16,7 @@
   "homepage": "https://github.com/16Yongjin/count-loc",
   "repository": {
     "type": "git",
-    "url": "https://github.com/16Yongjin/count-loc"
+    "url": "git+https://github.com/16Yongjin/count-loc.git"
   },
   "scripts": {
     "build": "rm -rf dist && tsc",
@@ -41,5 +41,8 @@
     "name": "16Yongjin",
     "email": "yongjin0802@gmail.com",
     "url": "https://github.com/16Yongjin"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
