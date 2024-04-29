@@ -13,6 +13,11 @@
     "count-loc": "dist/index.js"
   },
   "license": "MIT",
+  "homepage": "https://github.com/16Yongjin/count-loc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/16Yongjin/count-loc"
+  },
   "scripts": {
     "build": "rm -rf dist && tsc",
     "dev": "NODE_ENV=development ts-node-dev --respawn --transpile-only ./src/index.ts",
